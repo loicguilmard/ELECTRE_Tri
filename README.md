@@ -7,33 +7,17 @@ by Christian Ghiaus (Researcher ID: [ORCID](https://orcid.org/0000-0001-5561-124
 
 ELECTRE Tri is a Multiple-Criteria Decision Making (MCDM) method for sorting alternatives into predefined categories. This repository contains a Python implementation of ELECTRE Tri, along with explanatory materials and example data.
 
-## Repository Contents
+## Repository contents
 
-- `ELECTRE_Tri.py`: Python module containing the core functions for implementing the ELECTRE Tri method.
-- `ELECTRE_Tri_explained.ipynb`: Jupyter notebook providing a computational explanation of the ELECTRE Tri method.
-- `ELECTRE_Tri_yours.ipynb`: Jupyter notebook for your ELECTRE Tri MCDM. Requires that you upload a `.csv` file describing the problem.
-- `data/`: Folder containing example datasets from literature for use with the Jupyter notebook.
+Python module, explanations and examples for:
 
-## ELECTRE_Tri.py
-
-This module contains the main functions for implementing ELECTRE Tri. Each function is documented with docstrings, providing detailed information on usage, parameters, and return values.
-
-## ELECTRE_Tri.ipynb
-
-This Jupyter notebook serves as an interactive guide to understanding and applying the ELECTRE Tri method. It includes:
-
-- Theoretical background of ELECTRE Tri
-- Step-by-step implementation using the functions from `ELECTRE_Tri.py`
-- Practical examples using the provided datasets
-
-## Data
-
-The `data/` folder contains datasets sourced from literature. These datasets can be used with the Jupyter notebook to replicate published results and verify the implementation's accuracy.
+- `ELECTRE_Tri/`: Mulitple-Criteria Decision-Making.
+- `Simos_revised/`: for Simos' method for determining weights of criteria in ELECTRE type methods.
 
 ## Usage
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cghiaus/ELECTRE_Tri/HEAD)
 
-1. Launch mybinder.
-2. Upload your data file (which describes the ELECTRE Tri problem) in `data` folder.
-3. See the results.
+1. Launch binder.
+2. Upload your data file (which describes the ELECTRE Tri or weighing problem) in `data/` folder.
+3. Run the notebook to get the results.
