@@ -9,30 +9,10 @@ ELECTRE Tri is a Multiple-Criteria Decision Making (MCDM) method for sorting alt
 
 ## Repository Contents
 
-- `ELECTRE_Tri.py`: Python module containing the core functions for implementing the ELECTRE Tri method.
-- `ELECTRE_Tri_explained.ipynb`: Jupyter notebook providing a computational explanation of the ELECTRE Tri method.
-- `ELECTRE_Tri_yours.ipynb`: Jupyter notebook for your ELECTRE Tri MCDM. Requires that you upload a `.csv` file describing the problem.
+- `ELECTRE_Tri.py`: Python module containing the core functions for implementing ELECTRE Tri method.
+- `ELECTRE_Tri_explained.ipynb`: Jupyter notebook providing a computational explanation of ELECTRE Tri method.
+- `ELECTRE_Tri_yours.ipynb`: Jupyter notebook for your own ELECTRE Tri Multiple-Criteria Decision-Making. Requires that you upload a `.csv` file describing the problem.
 - `data/`: Folder containing example datasets from literature for use with the Jupyter notebook.
-
-## ELECTRE_Tri.py
-
-This module contains the main functions for implementing ELECTRE Tri. Each function is documented with docstrings, providing detailed information on usage, parameters, and return values.
-
-## ELECTRE_Tri_explained.ipynb
-
-This Jupyter notebook serves as an interactive guide to understanding and applying the ELECTRE Tri method. It includes:
-
-- Theoretical background of ELECTRE Tri
-- Step-by-step implementation using the functions from `ELECTRE_Tri.py`
-- Practical examples using the provided datasets
-
-## ELECTRE_Tri_yours.ipynb
-
-This Jupyter notebook gives an example of application. Change the data file to solve your ELECTRE Tri problem.
-
-## Data
-
-The `data/` folder contains datasets sourced from literature. These datasets can be used with the Jupyter notebook to replicate published results and verify the implementation's accuracy.
 
 ## Usage
 
