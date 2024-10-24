@@ -18,13 +18,17 @@ ELECTRE Tri is a Multiple-Criteria Decision Making (MCDM) method for sorting alt
 
 This module contains the main functions for implementing ELECTRE Tri. Each function is documented with docstrings, providing detailed information on usage, parameters, and return values.
 
-## ELECTRE_Tri.ipynb
+## ELECTRE_Tri_explained.ipynb
 
 This Jupyter notebook serves as an interactive guide to understanding and applying the ELECTRE Tri method. It includes:
 
 - Theoretical background of ELECTRE Tri
 - Step-by-step implementation using the functions from `ELECTRE_Tri.py`
 - Practical examples using the provided datasets
+
+## ELECTRE_Tri_yours.ipynb
+
+This Jupyter notebook gives an example of application. Change the data file to solve your ELECTRE Tri problem.
 
 ## Data
 
