@@ -1,0 +1,7 @@
+type,profile,Saving/(kWh/m²/year),Cost/(€/m²)
+A,a1: Basic renovation,50,-100
+A,a2: Moderate renovation,80,-200
+A,a3: Extensive renovation,120,-350
+L,worst,0,-400
+L,best,150,-50
+w,,0.7,0.3
