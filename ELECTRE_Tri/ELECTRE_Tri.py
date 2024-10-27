@@ -85,7 +85,7 @@ def read_electre_tri_data(filename):
         Indifference (q), prefference (p) and veto (v) thresholds for each
         criterion (columns).
     w : Series
-        Weight for each criiterion.
+        Weight for each criterion.
     """
     # Read the CSV file
     df = pd.read_csv(filename, header=0)
@@ -112,6 +112,119 @@ def read_electre_tri_data(filename):
     return A, B, T, w
 
 
+def read_electre_tri_extreme_base_profile(filename):
+    """
+    Reads the data for 4 default base profiles (5 categories)
+
+    Parameters
+    ----------
+    filename : str
+        Name of .csv file containing the data of the problem.
+
+    Returns
+    -------
+    A : DataFrame
+        Performance matrix of alternatives (rows) for criteria (columns).
+    L : DataFrame
+        Worst and best base profiles in ascending order for criteria (columns).
+    w : Series
+        Weight for each criterion.
+    """
+    # Read the CSV file
+    df = pd.read_csv(filename, header=0)
+
+    # Extract A
+    A = df[df.iloc[:, 0] == 'A'].iloc[:, 2:].set_index(
+        df[df.iloc[:, 0] == 'A'].iloc[:, 1])
+    A.index.name = None
+
+    # Extract L
+    L = df[df.iloc[:, 0] == 'L'].iloc[:, 2:].set_index(
+        df[df.iloc[:, 0] == 'L'].iloc[:, 1])
+    L.index.name = None
+
+    # Extract w
+    w = pd.Series(df[df.iloc[:, 0] == 'w'].iloc[0, 2:].dropna())
+    w.name = None  # Remove the name from the Series
+
+    return A, L, w
+
+
+def base_profile(L, n_base_profile=4):
+    """
+    Base profiles are calculated for each criterion. The range between the
+    best and the worst levels `L` is divided in equidistant `n_base_profile`
+    resulting in `n_base_profile + 1` categories.
+
+    Parameters
+    ----------
+    L : DataFrame
+        Worst and best base profiles in ascending order for criteria (columns).
+    n_base_profile : int, optional
+        Number of base profiles. The default is 4, i.e. 5 categories:
+            - very bad
+            - bad
+            - neutral
+            - good
+            - very good
+
+    Returns
+    -------
+    B : DataFrame
+        Base profiles in ascending order for criteria (columns)..
+
+    """
+    # Calculate the range for each column
+    ranges = L.loc['best'] - L.loc['worst']
+
+    # Create the percentages for the profiles
+    percentages = np.linspace(0, 1, n_base_profile + 2)[1:-1]
+
+    # Create the base profiles
+    B = pd.DataFrame({
+        col: [L.loc['worst', col] + p * ranges[col] for p in percentages]
+        for col in L.columns
+    }, index=[f'b{i+1}' for i in range(len(percentages))])
+
+    return B
+
+
+def threshold(B, threshold_percent=[0.10, 0.25, 0.50]):
+    """
+    Indifference (q), preferrence (p), and veto (v) thresholds are calculated
+    for each criterion as a percentage of the equidistant range between
+    two consecutive base profiles.
+
+    Parameters
+    ----------
+    B : DataFrame
+        Base profiles in ascending order for criteria (columns).
+    threshold_percent : list, optional
+        Values of indifference (q), preference (p) and veto (v) thresholds
+        as a percentage of the equidistant range between
+        two consecutive base profiles. The default is [0.10, 0.25, 0.50].
+
+    Returns
+    -------
+    T : DataFrame
+        Indifference (q), preference (p) and veto (v) thresholds for each
+        criterion (columns).
+    """
+
+    T = pd.DataFrame(index=['q', 'p', 'v'], columns=B.columns)
+
+    for col in B.columns:
+        # Calculate the differences between consecutive rows in the column
+        differences = B[col].diff().dropna()
+
+        # Calculate thresholds for q, p, and v based on the percentages
+        T.at['q', col] = threshold_percent[0] * differences.mean()
+        T.at['p', col] = threshold_percent[0] * differences.mean()
+        T.at['v', col] = threshold_percent[0] * differences.mean()
+
+    return T
+
+
 def partial_concordance(A, B, T):
     """
     Partial concordance between profiles `a` and `b` for each criterion `c`
@@ -120,7 +233,7 @@ def partial_concordance(A, B, T):
         *a outranks b for criterion c*
     where "outranks" means "is at least as good as".
 
-    In ELECTRE Tri, two partial concordances are calculates:
+    In ELECTRE Tri, two partial concordances are calculated:
         - between alternatives a and base profiles b;
         - between base profiles b and alternatives a.
 
@@ -1329,6 +1442,22 @@ def ELECTRE_Tri(A, B, T, w, credibility_threshold):
     return optimistic, pessimistic
 
 
+def ELECTRE_Tri_equidistant_profiles(
+        data_file,
+        n_base_profile=4,
+        threshold_percent=[0.10, 0.25, 0.50],
+        credibility_threshold=0.7):
+
+    A, L, w = read_electre_tri_extreme_base_profile(data_file)
+    B = base_profile(L)
+    T = threshold(B)
+
+    optimistic, pessimistic = ELECTRE_Tri(A, B, T, w,
+                                          credibility_threshold)
+
+    return optimistic, pessimistic
+
+
 def plot_alternatives_vs_base_profile(A, B_row, T):
     """
     Plots alternatives as lines and one base profile with
@@ -1580,7 +1709,21 @@ def main():
     print('\noutrankinging:\n')
     print(outranking)
 
-    pass
+    """
+    ELECTRE Tri-B with default categories and base profiles
+    """
+    data_file = './data/default_categories.csv'
+    opti, pessi = ELECTRE_Tri_equidistant_profiles(
+        data_file,
+        n_base_profile=4,
+        threshold_percent=[0.10, 0.25, 0.50],
+        credibility_threshold=0.7)
+
+    print('\nOptimistic sorting')
+    print(sort(opti).to_frame(name="alternatives").rename_axis("categories"))
+
+    print('\nPessimistic sorting')
+    print(sort(pessi).to_frame(name="alternatives").rename_axis("categories"))
 
 
 if __name__ == "__main__":
