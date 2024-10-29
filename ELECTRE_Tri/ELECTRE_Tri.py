@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Oct 11 19:24:18 2024
+Last modified on Tue Oct 29 01:39:45 2024
 
 @author: cghiaus
 
@@ -219,8 +220,10 @@ def threshold(B, threshold_percent=[0.10, 0.25, 0.50]):
 
         # Calculate thresholds for q, p, and v based on the percentages
         T.at['q', col] = threshold_percent[0] * differences.mean()
-        T.at['p', col] = threshold_percent[0] * differences.mean()
-        T.at['v', col] = threshold_percent[0] * differences.mean()
+        T.at['p', col] = threshold_percent[1] * differences.mean()
+        T.at['v', col] = threshold_percent[2] * differences.mean()
+
+        T = T.astype(float)
 
     return T
 
