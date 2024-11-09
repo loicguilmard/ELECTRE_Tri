@@ -5,13 +5,21 @@ by Christian Ghiaus (Researcher ID: [ORCID](https://orcid.org/0000-0001-5561-124
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cghiaus/ELECTRE_Tri/HEAD)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/cghiaus/dm4bem_book/blob/main/LICENSE)
 
-ELECTRE Tri is a Multiple-Criteria Decision-Making ([MCDM](https://en.m.wikipedia.org/wiki/Multiple-criteria_decision_analysis)) method for sorting alternatives into predefined categories. This repository contains a Python implementation of ELECTRE Tri, along with explanatory materials and example data.
+ELECTRE Tri-B is a Multiple-Criteria Decision-Making ([MCDM](https://en.m.wikipedia.org/wiki/Multiple-criteria_decision_analysis)) method for sorting alternatives into predefined categories defined by lower and upper boundaries. 
+
+This repository contains a Python implementation of ELECTRE Tri-B, along with explanatory materials and example data.
 
 ## Repository contents
 
+```
 ELECTRE_Tri-master
+├── data
 ├── docs
-└── examples
+│   ├── explanation
+│   ├── how_to_guide
+│   ├── reference
+│   └── tutorials
+├── examples
 │   └── ELECTRE_Tri
 │       ├── data
 │       ├── ELECTRE_Tri_1.ipynb
@@ -19,12 +27,13 @@ ELECTRE_Tri-master
 │       └── ELECTRE_Tri_2.ipynb
 ├── src
 │   ├── __init__.py
-│   └── ELECTRE_Tri.py
+│   ├── ELECTRE_Tri_B.py
+│   └── Simos_revised.py
 ├── LICENSE
 ├── README.md
 ├── environment.yml
-├── requirements.txt
-
+└── requirements.txt
+```
 
 
 Python module, explanations and examples for:
