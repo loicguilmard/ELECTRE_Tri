@@ -9,6 +9,24 @@ ELECTRE Tri is a Multiple-Criteria Decision-Making ([MCDM](https://en.m.wikipedi
 
 ## Repository contents
 
+ELECTRE_Tri-master
+├── docs
+└── examples
+│   └── ELECTRE_Tri
+│       ├── data
+│       ├── ELECTRE_Tri_1.ipynb
+│       └── ELECTRE_Tri_2.ipynb
+│       └── ELECTRE_Tri_2.ipynb
+├── src
+│   ├── __init__.py
+│   └── ELECTRE_Tri.py
+├── LICENSE
+├── README.md
+├── environment.yml
+├── requirements.txt
+
+
+
 Python module, explanations and examples for:
 
 - `ELECTRE_Tri/`: Mulitple-Criteria Decision-Making.
