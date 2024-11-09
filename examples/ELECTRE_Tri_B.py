@@ -1671,12 +1671,11 @@ def plot_base_profiles_vs_alternative(B, A_row, T):
 
 
 def main():
-    folder = '../examples/ELECTRE_Tri/data/'
-    # data_file = './data/Isfaki_T10_1_T10_13.csv'
-    # data_file = './data/Majid.csv'
-    data_file = './data/simple_example.csv'
-    # data_file = './data/mous3docl99.csv'
-    data_file = folder + 'simple_example.csv'
+    folder = '../data/'
+    # file = 'isfaki_T10_1_T10_13.csv'
+    file = 'simple_example.csv'
+    # file = 'mous3docl99_2.csv'
+    data_file = folder + file
 
     A, B, T, w = read_electre_tri_data(data_file)
 
