@@ -1,8 +1,14 @@
 # Data files
 
-- `default_categories.csv`:
-  Data file for `ELECTRE_Tri_application.ipynb` on default parameters (base profiles and thresholds).
+## Files for Simos' revised method
+- `cards_subsets_*.csv`:  
+   Criteria in ascending order. Ex-equo criteria on the same row. The `white` cards are used for larger differences between criteria.
+*****
 
+## Files for ELECTRE Tri-B method
+*****
+- `default_categories.csv`:
+  Data file for default parameters (base profiles and thresholds).
 *****
 
 - `Isfaki_T10_1_T10_13.csv`:  
@@ -33,6 +39,11 @@
    performance matrix: Table 1, page 15
    thresholds and weights: Table 2, page 16
    base profile: Table 9, page 19
+*****
+
+- `performance_matrix.csv`:  
+   2 criteria, 3 alternatives (no base profiles)
+*****
 
 - `simple_example.csv`:  
    2 criteria, 3 alternatives, 2 base profiles
