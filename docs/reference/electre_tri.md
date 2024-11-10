@@ -696,10 +696,10 @@ Alternative and the class to which it belongs.
 
 ---
 
-## <kbd>function</kbd> `ELECTRE_Tri`
+## <kbd>function</kbd> `electre_tri_b`
 
 ```python
-ELECTRE_Tri(A, B, T, w, credibility_threshold)
+electre_tri_b(A, B, T, w, credibility_threshold)
 ```
 
 ELECTRE Tri-B workflow. 
@@ -780,10 +780,10 @@ w,      ,     0.7, 0.3
 
 ---
 
-## <kbd>function</kbd> `ELECTRE_Tri_equidistant_profiles`
+## <kbd>function</kbd> `electre_tri_equidistant_profiles`
 
 ```python
-ELECTRE_Tri_equidistant_profiles(
+electre_tri_equidistant_profiles(
     data_file,
     n_base_profile=4,
     threshold_percent=[0.1, 0.25, 0.5],
