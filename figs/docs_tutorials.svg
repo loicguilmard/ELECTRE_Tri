@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="45.057957mm"
+   height="23.867716mm"
+   viewBox="0 0 45.057957 23.867716"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="docs_tutorials.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview249"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4659445"
+     inkscape:cx="-39.564936"
+     inkscape:cy="80.835257"
+     inkscape:window-width="1792"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <rect
+       x="347.21643"
+       y="40.150543"
+       width="21.82893"
+       height="79.370293"
+       id="rect1684" />
+    <linearGradient
+       id="linearGradient13599">
+      <stop
+         style="stop-color:#999999;stop-opacity:1;"
+         offset="0"
+         id="stop13595" />
+      <stop
+         style="stop-color:#999999;stop-opacity:0;"
+         offset="1"
+         id="stop13597" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13591">
+      <stop
+         style="stop-color:#999999;stop-opacity:1;"
+         offset="0"
+         id="stop13587" />
+      <stop
+         style="stop-color:#999999;stop-opacity:0;"
+         offset="1"
+         id="stop13589" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient11976">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop11972" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop11974" />
+    </linearGradient>
+    <rect
+       x="153.46831"
+       y="55.943382"
+       width="95.172333"
+       height="31.468151"
+       id="rect4513" />
+    <rect
+       x="89.039345"
+       y="139.29652"
+       width="64.428955"
+       height="58.183784"
+       id="rect4352" />
+    <rect
+       x="256.51813"
+       y="321.17764"
+       width="30.739775"
+       height="45.272339"
+       id="rect1993" />
+    <rect
+       x="95.3993"
+       y="110.23919"
+       width="121.65304"
+       height="44.227509"
+       id="rect1821" />
+    <rect
+       x="95.3993"
+       y="110.23919"
+       width="184.81145"
+       height="103.34412"
+       id="rect1821-7" />
+    <rect
+       x="95.3993"
+       y="110.23919"
+       width="168.53876"
+       height="78.147263"
+       id="rect1821-2" />
+    <rect
+       x="95.3993"
+       y="110.23919"
+       width="168.53876"
+       height="78.147263"
+       id="rect1821-2-6" />
+    <rect
+       x="95.3993"
+       y="110.23919"
+       width="121.65304"
+       height="44.227509"
+       id="rect1821-3" />
+    <rect
+       x="153.46831"
+       y="55.943382"
+       width="95.172333"
+       height="31.468151"
+       id="rect4513-5" />
+    <rect
+       x="153.46831"
+       y="55.943382"
+       width="95.172333"
+       height="31.468151"
+       id="rect4513-5-8" />
+    <rect
+       x="153.46831"
+       y="55.943382"
+       width="95.172333"
+       height="31.468151"
+       id="rect4513-5-8-7" />
+    <linearGradient
+       xlink:href="#linearGradient11976"
+       id="linearGradient11978"
+       x1="36.585457"
+       y1="53.371162"
+       x2="119.73872"
+       y2="53.371162"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.47015741,0,0,1,-17.200924,-31.200606)" />
+    <linearGradient
+       xlink:href="#linearGradient11976"
+       id="linearGradient12013"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.47015741,0,0,1,-96.694855,-31.204558)"
+       x1="36.585457"
+       y1="53.371162"
+       x2="119.73872"
+       y2="53.371162" />
+    <linearGradient
+       xlink:href="#linearGradient13591"
+       id="linearGradient13593"
+       x1="-52.585056"
+       y1="75.564323"
+       x2="-31.287451"
+       y2="75.564323"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(52.541647,-36.367182)" />
+    <linearGradient
+       xlink:href="#linearGradient13599"
+       id="linearGradient13601"
+       x1="-73.881485"
+       y1="75.464203"
+       x2="-53.361778"
+       y2="75.464203"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(31.244283,-36.137792)" />
+  </defs>
+  <rect
+     style="opacity:0.25;fill:url(#linearGradient11978);fill-opacity:1;stroke:none;stroke-width:0.797796;stroke-linecap:square;stroke-opacity:1"
+     id="rect6405"
+     width="39.095123"
+     height="1.742324"
+     x="0"
+     y="21.299395" />
+  <rect
+     style="opacity:0.25;fill:url(#linearGradient13593);fill-opacity:1;stroke:none;stroke-width:0.588834;stroke-linecap:square;stroke-opacity:1"
+     id="rect6405-3-6"
+     width="21.297606"
+     height="1.742321"
+     x="-0.043410294"
+     y="38.325977"
+     transform="matrix(-0.00415477,0.99999137,0.99999936,0.00113265,0,0)" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-15.768468,-29.76872)"
+     id="text1819"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';white-space:pre;shape-inside:url(#rect1821);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:square;stroke-opacity:1"><tspan
+       x="95.398438"
+       y="134.25843"
+       id="tspan994">tutorials</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,7.8178371,-11.740954)"
+     id="text1819-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';white-space:pre;shape-inside:url(#rect1821-3);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:square;stroke-opacity:1"><tspan
+       x="95.398438"
+       y="134.25843"
+       id="tspan996">docs</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-36.585457,-31.200606)"
+     id="text1991"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';white-space:pre;shape-inside:url(#rect1993);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:square;stroke-opacity:1" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-36.585457,-31.200606)"
+     id="text4350"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';white-space:pre;shape-inside:url(#rect4352);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:square;stroke-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-opacity:1"
+     x="15.916817"
+     y="13.657418"
+     id="text4358"><tspan
+       id="tspan4356"
+       style="fill:#d35f5f;stroke:none;stroke-width:0.5;stroke-opacity:1"
+       x="15.916817"
+       y="13.657418">learning</tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.0021569,-0.26457454,0.26457454,0.0021569,21.119777,51.570539)"
+     id="text4511"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';white-space:pre;shape-inside:url(#rect4513);display:inline;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:square;stroke-opacity:1"><tspan
+       x="153.46875"
+       y="70.35543"
+       id="tspan1000"><tspan
+         style="fill:#000000"
+         id="tspan998">action</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26457634,-0.00192402,0.00192402,0.26457634,-26.660822,4.7226124)"
+     id="text4511-6-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';white-space:pre;shape-inside:url(#rect4513-5-8);display:inline;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:square;stroke-opacity:1"><tspan
+       x="153.46875"
+       y="70.35543"
+       id="tspan1004"><tspan
+         style="fill:#000000"
+         id="tspan1002">acqusition</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';opacity:0.5;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-opacity:1"
+     x="59.090927"
+     y="21.891569"
+     id="text7157"><tspan
+       id="tspan7155"
+       style="stroke:none;stroke-width:0.5;stroke-opacity:1"
+       x="59.090927"
+       y="21.891569" /></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.26458333,0,0,0.26458333,-0.31295186,0.00395037)"
+     id="text1682"
+     style="font-size:16px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';white-space:pre;shape-inside:url(#rect1684);opacity:0.25;fill:#999999;stroke-width:1.88976;stroke-linecap:square" />
+</svg>
