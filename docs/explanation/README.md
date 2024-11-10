@@ -5,7 +5,7 @@ by Christian Ghiaus (Researcher ID: [ORCID](https://orcid.org/0000-0001-5561-124
 
 ![Documentation](../../figs/docs_explanation.svg)
 
-> Figure 1. Explanation type of ocumentation (adapted after [Procida 2017](https://diataxis.fr)).
+> Figure 1. Explanation type of documentation (adapted after [Procida 2017](https://diataxis.fr)).
 
 
 __Explanation__ is understanding oriented.
