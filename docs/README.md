@@ -9,7 +9,7 @@ by Christian Ghiaus (Researcher ID: [ORCID](https://orcid.org/0000-0001-5561-124
 
 > Figure 1. Forms of documentation (adapted after [Procida 2017](https://diataxis.fr)).
 
-Documentation is organized according to the Diátaxis framework ([Procida 2017](https://diataxis.fr)). The four types of documentation are positioned along two axes that represent different aspects of the user's needs and interaction with the content:
+Documentation is organized according to Diátaxis framework ([Procida 2017](https://diataxis.fr)). The four types of documentation are positioned along two axes that represent different aspects of the user's needs and interaction with the content:
 - Action vs. Cognition
 - Application vs. Acquisition
 
