@@ -11,7 +11,7 @@ ELECTRE Tri-B
 
 In ELECTRE Tri-B each category is characterized by two reference profiles corresponding to the limits of this category. In contrast, in ELECTRE Tri-C each category is characterized by one reference profile only, being representative of the category [Corente et al; 2016]. 
 
-__References__
+__Bibliography__
 
 Almeida-Dias, J., Figueira, J. R., & Roy, B. (2010). Electre Tri-C: A multiple criteria sorting method based on characteristic reference actions. European Journal of Operational Research, 204(3), 565-580. https://doi.org/10.1016/j.ejor.2009.10.018 https://hal.science/hal-00907583v1/document 
 
