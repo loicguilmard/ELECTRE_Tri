@@ -1,6 +1,6 @@
 <!-- markdownlint-disable -->
 
-# <kbd>module</kbd> `ELECTRE_Tri_B.py`
+# <kbd>module</kbd> `electre_tri.py`
 Created on Fri Oct 11 19:24:18 2024 
 
 Last modified on Tue Oct 29 10:39:45 2024 
