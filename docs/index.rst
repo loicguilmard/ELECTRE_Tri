@@ -14,5 +14,5 @@ ELECTRE_Tri documentation
    :maxdepth: 1
    :caption: Documentation:
 
-   explanation/README
-   reference/README
+   explanation
+   reference
