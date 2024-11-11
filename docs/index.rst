@@ -11,6 +11,8 @@ ELECTRE_Tri documentation
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Documentation:
 
+   explanation/README
+   reference/README
