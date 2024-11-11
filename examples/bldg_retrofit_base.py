@@ -28,7 +28,6 @@ data_file = "../data/bldg_retrofit_base.csv"
 credibility_threshold = 0.7
 
 # Problem solving
-# Problem solving
 A, B, T, w = et.read_electre_tri_data(data_file)
 
 optimistic, pessimistic = et.electre_tri_b(A, B, T, w,
