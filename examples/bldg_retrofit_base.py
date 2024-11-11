@@ -34,6 +34,7 @@ A, B, T, w = et.read_electre_tri_data(data_file)
 optimistic, pessimistic = et.electre_tri_b(A, B, T, w,
                                            credibility_threshold)
 
+# Results
 # Optimistic sorting
 opti_sort = et.sort(optimistic)
 print('Optimistic sorting')
