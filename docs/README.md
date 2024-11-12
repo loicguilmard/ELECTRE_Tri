@@ -5,7 +5,7 @@ by Christian Ghiaus (Researcher ID: [ORCID](https://orcid.org/0000-0001-5561-124
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cghiaus/ELECTRE_Tri/HEAD)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/cghiaus/dm4bem_book/blob/main/LICENSE)
 
-![Documentation](../figs/docs.svg)
+![Documentation](figs/docs.svg)
 
 > Figure 1. Forms of documentation (adapted after [Procida 2017](https://diataxis.fr)).
 
