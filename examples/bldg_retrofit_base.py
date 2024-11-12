@@ -5,9 +5,37 @@ Created on Mon Nov 11 11:11:11 2024
 
 @author: cghiaus
 
-ELECTRE Tri with 4 default base profiles for 5 categories.
+ELECTRE Tri-B with specified base profiles.
+
+Energy retrofit of a building.
+
+Problem statement:
+
+Given:
+
+    Criteria with weights:
+        - c1: Saving (in kWh/m²/year) with weight w = 0.7
+        - c2: Cost (in €/m²) with weight w = 0.3
+
+    Alternatives:
+        - a1: Basic renovation,
+        - a2: Moderate renovation,
+        - a3: Extensive renovation.
+
+    Base profiles:
+        - b1: bad
+        - b2: good
+
+Do:
+    Sort the alternatives into
+    Categories:
+        - bad >: alteratives worse than b1 (bad) base profile.
+        - (bad, good): alternatives between base profiles bad and good.
+        - good <: alternatives better than b2 (good) base profile.
+    defined by base profiles by using outranking.
+
+See docs/explnation/electre_tri-b_explained.ipynb for more details.
 """
-import pandas as pd
 
 import sys
 import os
