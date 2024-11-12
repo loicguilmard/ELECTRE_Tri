@@ -16,3 +16,4 @@ ELECTRE_Tri documentation
 
    explanation
    reference
+   tutorials
